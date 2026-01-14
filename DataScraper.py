@@ -5,6 +5,11 @@ import sqlalchemy
 from sqlalchemy import create_engine
 import pymysql
 
+"""
+The purpose of this script is to automate, going through the website Pokemondb.net, going through each content in the html table
+storing the links of each element, then later going through said link and record it into a csv, some light data cleaning with Pandas
+then uploading that into a local MYSQL server. which is then processed and analyzed using PowerBi
+"""
 
 def scrape():
     total_count = 1025
@@ -102,3 +107,4 @@ if __name__ == "__main__":
     Database = scrape()
     Sql_upload(Database)
     
+
