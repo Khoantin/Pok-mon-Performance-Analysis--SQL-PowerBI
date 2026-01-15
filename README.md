@@ -1,5 +1,7 @@
 # Pokémon Performance Analysis Using SQL and Power BI
 This project builds an automated pipeline that scrapes Pokémon data from PokémonDB, stores it in a self-hosted SQL database, and analyzes the data using Power BI. The analysis focuses on identifying high-performing and statistically strong Pokémon based on key performance metrics, whether that is speed, defense or overall total stats. 
+![assets/generation_sort.jpg](assets/generation_sort.jpg)
+
 ## How to Navigate this Project
 -   'PowerBI Screenshots' is home to images of my dashboards and some of its functions
 -   'Datascraper.py' is the main webscraping and data collecting script.
@@ -18,4 +20,4 @@ This project builds an automated pipeline that scrapes Pokémon data from Pokém
 -   Although this project was done on pokemon, future projects could focus on products and sales. Perhaps instead of highest performing Pokemon, it could be certain top performing products/sales, their profit%
   and how that specific product sales and performance compares to the overall average %, similar to what I had in this project with Pokemon.
 
-![assets/generation_sort.jpg](assets/generation_sort.jpg)
+
